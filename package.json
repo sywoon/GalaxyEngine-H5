@@ -1,0 +1,30 @@
+{
+  "name": "GalaxyEngine-H5",
+  "version": "1.0.0",
+  "description": "银河引擎-h5 目的：学习和积累3d引擎技术。",
+  "main": "index.js",
+  "scripts": {
+    "server": "node_modules/.bin/webpack-dev-server",
+    "watch": "node_modules/.bin/webpack -w",
+    "build": "node_modules/.bin/webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sywoon/GalaxyEngine-H5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sywoon/GalaxyEngine-H5/issues"
+  },
+  "homepage": "https://github.com/sywoon/GalaxyEngine-H5#readme",
+  "devDependencies": {
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
